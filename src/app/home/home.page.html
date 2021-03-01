@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank Template
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="false">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header><span  class="myCardHeader">Contact title</span></ion-card-header>
+    <ion-card-content>
+      <p>NAME:<strong>{{contact.name}}</strong></p>
+      <p>EMAIL: <strong>{{contact.email}}</strong></p>
+      <img src="{{contact.picture}}" width="50" height="50"/>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
